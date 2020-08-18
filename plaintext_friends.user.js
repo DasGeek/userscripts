@@ -8,7 +8,6 @@
 // @grant        none
 // ==/UserScript==
 
-const config = { childList: true, subtree: true };
 var friendNames = new Array();
 
 var copyButton = document.createElement('span');
