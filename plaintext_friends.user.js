@@ -14,6 +14,8 @@ var friendNames = new Array();
 var copyButton = document.createElement('span');
 var copyButtonText = document.createTextNode('Copy');
 copyButton.appendChild(copyButtonText);
+copyButton.style.color = 'red';
+copyButton.style.cursor = 'pointer';
 copyButton.onclick = function() {
     var friendText = friendNames.join("\n");
     navigator.clipboard.writeText(friendText);
